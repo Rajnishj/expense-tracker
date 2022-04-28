@@ -1,0 +1,32 @@
+.empty-img {
+  img {
+    height: 360px;
+  }
+}
+.card-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  .card-container-left {
+    display: grid;
+    grid-template-columns: 45px 200px;
+    .card-img-container {
+      img {
+        height: 32px;
+      }
+    }
+    .card-info {
+      label.time {
+        opacity: 0.6;
+      }
+    }
+  }
+  .card-container-right {
+    i {
+      cursor: pointer;
+    }
+  }
+}

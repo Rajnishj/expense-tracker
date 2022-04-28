@@ -1,0 +1,84 @@
+.add-form {
+  background: #71ccca;
+  box-shadow: 20px 20px 60px #60adac, -20px -20px 60px #82ebe8;
+  margin: 6px 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 60vh;
+  .form-item {
+    margin: 12px 0px;
+    width: 70%;
+    padding: 4px;
+    border-radius: 6px;
+    background-color: #fff;
+    label {
+      background-color: lightgray;
+      padding: 2px 12px;
+      border-radius: 0px 4px 4px 0;
+    }
+    input {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      width: 70%;
+      padding-left: 10px;
+    }
+  }
+  .category-container-parent {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    .category {
+      position: relative;
+      width: 40%;
+      .category-dropdown {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 12px 0;
+        border-radius: 6px;
+        padding: 4px 12px;
+        background-color: #fff;
+      }
+      .category-container {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        flex-direction: column;
+        background-color: #fff;
+        .category-item {
+          width: 98%;
+          display: flex;
+          justify-content: space-between;
+          padding: 8px 10px;
+          cursor: pointer;
+          img {
+            height: 32px;
+            margin-right: 20px;
+          }
+          label {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .form-add-btn {
+    display: flex;
+    justify-content: flex-end;
+    button {
+      border: 1px solid #333;
+      padding: 6px 16px;
+      background-color: transparent;
+      border-radius: 6px;
+      label {
+        cursor: pointer;
+      }
+      i {
+        margin-left: 5px;
+      }
+    }
+  }
+}

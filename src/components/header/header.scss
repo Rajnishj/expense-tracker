@@ -1,0 +1,22 @@
+.header-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .header-btn {
+    font-size: 20px;
+    a {
+      text-decoration: none;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 6px 16px;
+      color: #333;
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+}

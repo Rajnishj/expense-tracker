@@ -1,0 +1,22 @@
+.ReactModal__Content {
+  background-color: #71ccca !important;
+  border-radius: 12px !important;
+}
+
+.modal-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    height: 360px;
+  }
+  .home-btn {
+    border: 1px solid black;
+    padding: 4px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    i {
+      margin-right: 5px;
+    }
+  }
+}
